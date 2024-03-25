@@ -28,6 +28,12 @@ pip install -r requirements.txt
 python find_unrelated_words.py --original homeless --new unhoused
 ```
 
+In order to change the number of top adjectives, provide the `--number` argument, which is 100 by default:
+
+```
+python find_unrelated_words.py --original addict --new "Breaking Bad reenactor" --number 50
+```
+
 ### Example results
 ```
 Original: homeless
